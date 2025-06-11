@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/accessibility_service_description"
+    android:packageNames="com.openai.chatgpt,com.google.android.apps.bard,com.microsoft.copilot,com.anthropic.claude"
+    android:accessibilityEventTypes="typeViewFocused|typeViewTextChanged"
+    android:accessibilityFlags="flagDefault"
+    android:canRetrieveWindowContent="true"
+    android:notificationTimeout="100" /> 

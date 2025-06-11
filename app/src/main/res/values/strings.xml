@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI提示词助手</string>
+    <string name="accessibility_service_description">AI提示词助手无障碍服务，用于自动填充提示词到聊天应用中</string>
+    
+    <!-- 权限相关 -->
+    <string name="permission_overlay_title">需要悬浮窗权限</string>
+    <string name="permission_overlay_message">为了在其他应用上显示提示词助手，需要开启悬浮窗权限</string>
+    <string name="permission_accessibility_title">无障碍服务权限</string>
+    <string name="permission_accessibility_message">开启此权限可以实现自动填充功能，无需手动粘贴</string>
+    <string name="go_to_settings">去设置</string>
+    <string name="permission_granted">权限已授予</string>
+    
+    <!-- 悬浮窗相关 -->
+    <string name="floating_bubble_hint">点击查看提示词</string>
+    <string name="start_floating_service">启动悬浮助手</string>
+    <string name="stop_floating_service">停止悬浮助手</string>
+    
+    <!-- 提示词管理 -->
+    <string name="add_prompt">添加提示词</string>
+    <string name="edit_prompt">编辑提示词</string>
+    <string name="delete_prompt">删除提示词</string>
+    <string name="prompt_title">标题</string>
+    <string name="prompt_content">内容</string>
+    <string name="prompt_category">分类</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="copy">复制</string>
+    <string name="auto_fill">自动填充</string>
+    <string name="copied_to_clipboard">已复制到剪贴板</string>
+    <string name="auto_filled">已自动填充</string>
+    
+    <!-- 分类 -->
+    <string name="category_writing">写作</string>
+    <string name="category_coding">编程</string>
+    <string name="category_translation">翻译</string>
+    <string name="category_analysis">分析</string>
+    <string name="category_creative">创意</string>
+    <string name="category_other">其他</string>
+    
+    <!-- 错误信息 -->
+    <string name="error_title_empty">标题不能为空</string>
+    <string name="error_content_empty">内容不能为空</string>
+    <string name="error_accessibility_service_not_enabled">无障碍服务未开启</string>
+</resources> 
